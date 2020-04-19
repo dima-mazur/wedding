@@ -1,13 +1,39 @@
 body {
-    background-color: rgb(150, 166, 167);
-
-    background-image: url(img/fon.jpg);
+    background-color: rgb(211, 205, 208);
+    background-image: url(img/fon3.jpg);
+    background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    margin: 0;
+    
+    
 }
 
-p {
-    color: #665600;
+.heading {
+    padding-top: 40px;
+    padding-left: 60px;
+    color: #836f01;
     font-family: 'Playfair Display', serif;
     font-size: 48px;
+    line-height: 60px
 }
+
+nav {
+    padding-top: 20px;
+}
+
+section {
+    padding-top: 100px;
+}
+
+.page-footer {
+    padding: 5px 50px;
+    background-color: #9fa1a3da;
+    color: #4b4949;
+    text-align: right;
+    
+  }
+
+  .h3 {
+      font-size: 12px;
+  }
