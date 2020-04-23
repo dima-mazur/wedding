@@ -1,29 +1,98 @@
 body {
-    background-color: rgb(211, 205, 208);
+    background-color: rgb(215, 206, 209);
     background-image: url(img/fon3.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-position: top center;
     background-repeat: no-repeat;
     margin: 0;
     
-    
 }
 
 .heading {
-    padding-top: 40px;
-    padding-left: 60px;
+    margin-bottom: 0px;
+    padding-top: 21%;
+    padding-left: 6%;
     color: #836f01;
     font-family: 'Playfair Display', serif;
     font-size: 48px;
-    line-height: 60px
-}
+    line-height: 140%
+    
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #4d4d4d;
+    }
 
 nav {
-    padding-top: 20px;
+   padding: 30px 5%;
 }
 
-section {
-    padding-top: 100px;
+.nav-where {
+    margin-left: 20%;
+    padding: 50%;
+    background-image: url(img/checkpoint.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    
+ }
+
+ .nav-when {
+    
+    padding: 50%;
+    background-image: url(img/Time-head.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+
+    
+ }
+
+ .nav-what {
+     margin-left: 40%;
+    padding: 50%;
+    background-image: url(img/Suit.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    
+    }
+
+
+
+
+.table-when td {
+    margin-left: 5%;
+    border-collapse: collapse;
+border: tomato;
+border-style: double;
+    }
+
+.when {
+      text-align: center;
+      margin-top: 400px;
+       
+  }
+
+  .table-where td {
+    margin-left: 5%;
+    border-collapse: collapse;
+border: tomato;
+border-style: double;
+    }
+
+
+.where {     
+    text-align: center;
+    margin-top: 300px;
+    
+ }
+
+.what {
+    text-align: center;
+    margin-top: 300px;
+    
 }
 
 .page-footer {
@@ -31,9 +100,11 @@ section {
     background-color: #9fa1a3da;
     color: #4b4949;
     text-align: right;
-    
+    margin-bottom: 0px;
+    margin-top: 300px 
   }
 
   .h3 {
       font-size: 12px;
+      line-height: normal;
   }

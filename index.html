@@ -2,7 +2,7 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots">
         <meta name="keywords" content="свадьба, маша, дима, мазур, щербакова, 23.05.2020, кохави"> 
         <meta name="description" content="Сайт посвященный свадьбе Маши и Димы 23 мая 2020 года"> 
@@ -11,30 +11,55 @@
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     </head>
 <body>
-        <!--<img src="img\mein.jpg">-->
-    <nav class="nav">Навигация</nav>
-    <!-- Добавить в навигацию разделы  -->
-    <a href="#when">Когда?</a>
-    <a href="#wheare">Где?</a>
-    <a href="#what">Что надеть?</a> 
+    <nav class="nav">
+        <table width="20%">
+            <tr >
+                <td><a class="nav-when" href="#when" title="Когда?"> </a></td>
+                <td><a class="nav-where" href="#where" title="Где?"> </a></td>
+                <td><a class="nav-what" href="#what" title="Что надеть?"></a></td>
+            </tr>
+        </table>
+    <!--<a class="nav-when" href="#when" title="Когда?"> </a>
+    <a class="nav-where" href="#where" title="Где?"> </a>
+    <a class="nav-what" href="#what" title="Что надеть?">
+    </a> -->
+    </nav>
+
     <header>
         <p class="heading">День, когда<br> расцветают чувства</p>
     </header>
     <main>
         
         <section id="when">
-        <div>
-        <h2>Когда?</h2> 
+        <div class="when">
+        <h2>Когда?</h2>
+        <table class="table-when" width="90%">
+            <tr>
+                <td><span>25 апреля 2020 года</span></td>
+                <td> таймер </td>
+            </tr>
+        </table>
+         
         </div>
         </section>
     
-        <section id="wheare">
-            <div>
+        <section id="where">
+            <div class="where">
                 <h2>Где?</h2> 
+                <table class="table-where" width="90%">
+                    <tr>
+                        <td><span>KOHAVI FORREST CLUB</span></td>
+                        <td rowspan="2">  карта </td>
+                    </tr>
+                    <tr>
+                        <td>с. Орловщина, ул. Звездная 1</td>
+                    </tr>
+                </table>
                 </div>    
             </section>
+
         <section id="what">
-            <div>
+            <div class="what">
                 <h2>Что надеть?</h2> 
                 </div>
             </section>
