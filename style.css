@@ -1,19 +1,62 @@
+
+
 body {
-/*     min-width: 960px; */
+    /* min-width: 960px; */
     background-color: rgb(215, 206, 209);
     background-image: url(img/fon3.jpg);
     background-size: contain;
-/*     background-size: 100%; */
+    /* background-size: 100%; */
     background-position: top center;
     background-repeat: no-repeat;
     margin: 0;
+    font-size: 16px;
     
 }
 
+nav {
+    padding: 1.2rem;
+    margin: 0 0 22vw;
+ }
+ 
+ .table-nav {
+     width: 30vw;
+     
+ }
+ 
+ .nav-where {
+     
+     padding: calc(0.5vw + 1rem);
+     background-image: url(img/checkpoint.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 70%;
+     
+  }
+ 
+  .nav-when {
+     
+     padding: calc(0.5vw + 1rem);padding: calc(0.5vw + 1rem);
+     background-image: url(img/Time-head.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100%;
+ 
+     
+  }
+ 
+  .nav-what {
+     padding: calc(0.5vw + 1rem);
+     background-image: url(img/Suit.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100%;
+     
+     }
+
 .heading {
-    margin-bottom: 0px;
-    padding-top: 21%;
-    padding-left: 6%;
+    
+    /* padding-top: 21%; */
+    padding-left: 3%;
     color: #836f01;
     font-family: 'Playfair Display', serif;
     font-size: 4vw;
@@ -22,50 +65,17 @@ body {
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 4vw;
         color: #4d4d4d;
     }
 
-nav {
-   padding: 30px 5%;
-}
 
-.nav-where {
-    margin-left: 20%;
-    padding: 50%;
-    background-image: url(img/checkpoint.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
-    
- }
-
- .nav-when {
-    
-    padding: 50%;
-    background-image: url(img/Time-head.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
-
-    
- }
-
- .nav-what {
-     margin-left: 40%;
-    padding: 50%;
-    background-image: url(img/Suit.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    
-    }
 
 
 
 
 .table-when td {
-    margin-left: 5%;
+    margin-left: 1vw;
     border-collapse: collapse;
 border: tomato;
 border-style: double;
