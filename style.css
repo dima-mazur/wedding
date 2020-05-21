@@ -13,35 +13,34 @@ body {
 nav {
   padding: 1.2rem;
   margin: 0 0 22vw;
+  line-height: 3em;
 }
 
 .navflex{
   display: flex;
   width: 20vw;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav-where, .nav-when, .nav-what {
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .nav-where {
-  padding: 1rem;
   background-image: url(img/checkpoint.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: 70%;
 }
 
 .nav-when {
-  padding: 1rem;
   background-image: url(img/Time-head.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: 100%;
 }
 
 .nav-what {
-  padding: 1rem;
   background-image: url(img/Suit.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: 100%;
 }
 
@@ -52,14 +51,7 @@ h1 {
     font-size: 4vw;
     line-height: 130%;
   }
-/* .heading {
-  padding-top: 21%;
-  padding-left: 3%;
-  color: #836f01;
-  font-family: "Playfair Display", serif;
-  font-size: 4vw;
-  line-height: 130%;
-} */
+
 
 h2 {
   font-size: 4vw;
