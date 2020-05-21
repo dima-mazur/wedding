@@ -15,8 +15,10 @@ nav {
   margin: 0 0 22vw;
 }
 
-.table-nav {
-  width: 30vw;
+.navflex{
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
 }
 
 .nav-where {
@@ -71,7 +73,7 @@ h2 {
   border-style: double;
 }
 
-.when {
+#when {
   text-align: center;
   margin-top: 22vw;
 }
@@ -106,3 +108,5 @@ h2 {
   font-size: 12px;
   line-height: normal;
 }
+
+
