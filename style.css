@@ -63,10 +63,12 @@ header div {
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
-  height: 980px;
+  height: 900px;
 }
 
-
+section p {
+  font-size: 2em;
+}
 
 h2 {
   font-size: 4vw;
@@ -88,8 +90,14 @@ h2 {
   background-color: antiquewhite;
   padding: 0.5em;
   border-radius: 1em;
-  width: 400px;
+  max-width: 370px;
+  margin: 0 auto;
 }
+
+.p1em {
+  font-size: 1em;
+}
+
 
 #when {
   text-align: center;
