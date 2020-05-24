@@ -100,19 +100,16 @@ h2 {
 
 #when {
   text-align: center;
-  margin-top: 0vw;
 }
 
-.table-where td {
-  margin-left: 5%;
-  border-collapse: collapse;
-  border: tomato;
-  border-style: double;
+.row {
+  align-items: center;
+  /* height: 300px; */
 }
 
 .where {
   text-align: center;
-  margin-top: 300px;
+  margin-top: 0px;
 }
 
 .what {
