@@ -1,7 +1,7 @@
 body {
-  font-family: 'Playfair Display', serif;
-   background-color: rgb(215, 206, 209);
-    margin: 0;
+  font-family: "Playfair Display", serif;
+  background-color: rgb(215, 206, 209);
+  margin: 0;
   font-size: 16px;
 }
 
@@ -12,8 +12,6 @@ body {
 .maps {
   height: 240px;
 }
-
-
 
 /* nav {
   padding: 1.2rem;
@@ -28,7 +26,9 @@ body {
   flex-wrap: wrap;
 } */
 
-.nav-where, .nav-when, .nav-what {
+.nav-where,
+.nav-when,
+.nav-what {
   padding: 1rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,30 +51,21 @@ body {
 
 h1 {
   padding-top: 25vw;
-    padding-left: 3%;
-    color: #836f01;
-    font-family: "Playfair Display", serif;
-    font-size: 3em;
-    line-height: 130%;
-  }
+  padding-left: 3%;
+  color: #836f01;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  line-height: 130%;
+}
 
-  header div{
-    background-image: url(img/fon3.jpg);
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-  height: 1024px;
-  
-  }
+header div {
+  background-image: url(img/fon3.jpg);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 980px;
+}
 
-  @media only screen and (max-width: 1090px) {
-    header div{
-      background-image: url(img/fon4.png);
-      background-size: contain;
-      background-position: top center;
-      background-repeat: no-repeat;
-  }
-  }
 
 
 h2 {
@@ -91,24 +82,18 @@ h2 {
   line-height: 3em;
 }
 
-/* .table-when td {
-  margin-left: 1vw;
-  border-collapse: collapse;
-  border: tomato;
-  border-style: double;
-} */
-
 #timer {
   font-size: 3em;
   color: #836f01;
   background-color: antiquewhite;
   padding: 0.5em;
   border-radius: 1em;
+  width: 400px;
 }
 
 #when {
   text-align: center;
-  margin-top: 22vw;
+  margin-top: 0vw;
 }
 
 .table-where td {
@@ -142,4 +127,23 @@ h2 {
   line-height: normal;
 }
 
-
+@media only screen and (max-width: 1090px) {
+  header div {
+    background-image: url(img/fon4.png);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 480px;
+  }
+  h1 {
+    padding-top: 70vw;
+    padding-left: 3%;
+    color: #836f01;
+    font-family: "Playfair Display", serif;
+    font-size: 2.5em;
+    line-height: 130%;
+  }
+  h2 {
+    font-size: 2.5em;
+    }
+}
