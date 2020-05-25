@@ -104,7 +104,8 @@ h2 {
 
 .row {
   align-items: center;
-  /* height: 300px; */
+  line-height: 3em;
+  height: 400px;
 }
 
 .where {
