@@ -9,10 +9,6 @@ body {
   justify-content: space-around;
 }
 
-.maps {
-  height: 240px;
-}
-
 /* nav {
   padding: 1.2rem;
   margin: 0 0 22vw;
@@ -67,7 +63,8 @@ header div {
 }
 
 section p {
-  font-size: 2em;
+  font-size: 3em;
+  line-height: 1.5em;
 }
 
 h2 {
@@ -98,16 +95,34 @@ h2 {
   font-size: 1em;
 }
 
+.p2em {
+  font-size: 2em;
+}
+
 #when {
   text-align: center;
 }
 
 .row {
   align-items: center;
+
   line-height: 3em;
-  height: 400px;
+  height: 480px;
+  margin: 0px;
 }
 
+.col-sm-6 {
+  padding: 15px;
+}
+
+.maps {
+  height: 480px;
+}
+
+/* .map-google {
+  height: 540px;
+  width: 100%;
+} */
 .where {
   text-align: center;
   margin-top: 0px;
@@ -115,7 +130,7 @@ h2 {
 
 .what {
   text-align: center;
-  margin-top: 300px;
+  /* margin-top: 300px; */
 }
 
 .page-footer {
@@ -143,12 +158,26 @@ h2 {
   h1 {
     padding-top: 70vw;
     padding-left: 3%;
-    color: #836f01;
+    color: #8f7a03;
     font-family: "Playfair Display", serif;
     font-size: 2.5em;
     line-height: 130%;
   }
   h2 {
     font-size: 2.5em;
+  }
+  #timer {
+    /* font-size: 3em;
+    color: #836f01;
+    background-color: antiquewhite;
+    /* padding: 0.5em; */
+    border-radius: 1em;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.5em 0;
+  }
+
+  section p {
+    font-size: 2em;
   }
 }
