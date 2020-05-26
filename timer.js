@@ -28,7 +28,7 @@ timer = setInterval(function () {
         alert("Время закончилось");
     } else {
         let res = new Date(ms_left);
-        let str_timer = `${res.getUTCMonth()} м ${res.getUTCDate() - 1} д ${res.getUTCHours()}:${res.getUTCMinutes()}:${res.getUTCSeconds()}`;
+        let str_timer = `${res.getUTCMonth()} мес. ${res.getUTCDate() - 1} дн. ${res.getUTCHours()}:${res.getUTCMinutes()}:${res.getUTCSeconds()}`;
         timer_show.innerHTML = str_timer;
     }
 }, 1000)
