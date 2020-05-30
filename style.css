@@ -69,10 +69,10 @@ h2 {
 }
 
 #timer {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 3em;
   color: #836f01;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   padding: 0.5em;
   border-radius: 1em;
   max-width: 370px;
@@ -85,6 +85,7 @@ h2 {
 
 .p2em {
   font-size: 2em;
+  line-height: 2em;
 }
 
 #when {
@@ -96,8 +97,6 @@ h2 {
   line-height: 3em;
   height: 480px;
   margin: 0px;
-  /* background-color: beige;
-  border: cadetblue 2px solid; */
 }
 
 .col-sm-6 {
@@ -115,7 +114,7 @@ h2 {
 
 .what {
   text-align: center;
-  /* margin-top: 100px; */
+  margin-top: 50px;
 }
 
 .page-footer {
@@ -124,12 +123,24 @@ h2 {
   color: #4b4949;
   text-align: right;
   margin-bottom: 0px;
-  margin-top: 300px;
+  margin-top: 20px;
 }
 
 .h3 {
   font-size: 12px;
   line-height: normal;
+}
+
+.row-clouth {
+  background-image: url(img/cloth4.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.gold {
+  color: #836f01;
 }
 
 @media only screen and (max-width: 1090px) {
@@ -167,6 +178,20 @@ h2 {
   }
 
   .what {
-    margin-top: 300px;
+    margin-top: 200px;
+  }
+
+  .row-clouth {
+    background-image: url(img/cloth4.png);
+    height: 250px;
+    width: 100%;
+    padding: 0 10px;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .p2em {
+    font-size: 1.2em;
+    line-height: 1.2em;
   }
 }
