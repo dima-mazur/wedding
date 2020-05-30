@@ -178,16 +178,16 @@ h2 {
   }
 
   .what {
-    margin-top: 200px;
+    margin-top: 250px;
   }
 
   .row-clouth {
     /* background-image: url(img/cloth4.png); */
     height: 250px;
-    width: 100%;
-    padding: 0 10px;
+    /* width: 100%; */
+    /* padding: 0 10px;
     background-size: contain;
-    background-position: center;
+    background-position: center; */
   }
 
   .p2em {
