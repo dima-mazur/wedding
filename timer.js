@@ -16,6 +16,12 @@ let end_date = {
     "seconds": "00" // Секунды
 }
  
+function add0(value) {
+    if (value.toString().length < 2) {
+        return '0' + value;
+    } else {return value;}
+}
+
 // Переменная строка, которая хранит время до которого нужно досчитать
 let end_date_str = `${end_date.full_year}-${end_date.month}-${end_date.day}T${end_date.hours}:${end_date.minutes}:${end_date.seconds}`;
 
@@ -28,7 +34,7 @@ timer = setInterval(function () {
         alert("Время закончилось");
     } else {
         let res = new Date(ms_left);
-        let str_timer = `${res.getUTCMonth()} мес. ${res.getUTCDate() - 1} дн. ${res.getUTCHours()}:${res.getUTCMinutes()}:${res.getUTCSeconds()}`;
+        let str_timer = `${res.getUTCMonth()} мес. ${res.getUTCDate() - 1} дн. ${add0(res.getUTCHours())}:${add0(res.getUTCMinutes())}:${add0(res.getUTCSeconds())}`;
         timer_show.innerHTML = str_timer;
     }
 }, 1000)
