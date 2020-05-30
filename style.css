@@ -132,10 +132,10 @@ h2 {
 }
 
 .row-clouth {
-  background-image: url(img/cloth4.png);
+  background-image: url(img/cloth5.png);
   height: 400px;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   background-position: center;
 }
 
