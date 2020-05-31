@@ -140,7 +140,7 @@ h2 {
 }
 
 .gold {
-  color: #836f01;
+  color: #4d4d4d;
 }
 
 @media only screen and (max-width: 1090px) {
@@ -182,12 +182,7 @@ h2 {
   }
 
   .row-clouth {
-    /* background-image: url(img/cloth4.png); */
     height: 250px;
-    /* width: 100%; */
-    /* padding: 0 10px;
-    background-size: contain;
-    background-position: center; */
   }
 
   .p2em {
